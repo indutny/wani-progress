@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Noto';
+  src: url('noto.woff') format('woff');
+}
+
+* {
+  font-family: 'Noto';
+}
+
+.content {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #333;
+  max-width: 1170px;
+}
+
+.level {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f01a96;
+  margin-bottom: 12px;
+}
+
+.srs {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.stage {
+  flex: 1 1 calc(20% - 12px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 12px;
+  border-radius: 6px;
+  color: white;
+}
+
+.apprentice {
+  background: #f01a96;
+  color: #f01a96;
+}
+
+.guru {
+  background: #9230ab;
+  color: #9230ab;
+}
+
+.master {
+  background: #304ed1;
+  color: #304ed1;
+}
+
+.enlightened {
+  background: #188edc;
+  color: #188edc;
+}
+
+.burned {
+  background: #404040;
+  color: #404040;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #ffffff60;
+  color: white;
+}
+
+.header .icon {
+  height: 24px;
+}
+
+.header .title {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.header .total {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+
+  background: white;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.category .label {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+.category .value {
+  font-weight: 600;
+}
